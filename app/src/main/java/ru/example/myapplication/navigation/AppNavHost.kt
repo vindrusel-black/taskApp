@@ -4,9 +4,6 @@ import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.runtime.Composable
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
-import androidx.navigation.compose.composable
-import ru.example.myapplication.details_screen.presentation.CreateTaskScreen
-import ru.example.myapplication.details_screen.presentation.DetailsScreen
 import ru.example.myapplication.navigation.screens.composableCreateScreen
 import ru.example.myapplication.navigation.screens.composableDetailsScreen
 import ru.example.myapplication.navigation.screens.composableMainScreen
