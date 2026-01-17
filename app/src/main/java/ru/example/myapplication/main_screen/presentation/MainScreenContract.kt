@@ -1,7 +1,6 @@
 package ru.example.myapplication.main_screen.presentation
 
 import androidx.compose.runtime.Immutable
-import androidx.compose.runtime.Stable
 
 interface ViewState
 
@@ -32,7 +31,6 @@ interface MainScreenContract {
         val description: String = "",
     )
 
-    @Stable
     interface Listener {
         fun onAddNewTask()
         fun onDeleteClick(taskId: String)
