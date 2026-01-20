@@ -1,17 +1,14 @@
 package ru.example.myapplication.main_screen.presentation
 
 import androidx.compose.runtime.Immutable
-
-interface ViewState
-
-interface ViewEvent
-
-interface ViewSideEffect
+import ru.example.myapplication.base.ViewEvent
+import ru.example.myapplication.base.ViewSideEffect
+import ru.example.myapplication.base.ViewState
 
 interface MainScreenContract {
 
     @Immutable
-    sealed interface Event: ViewEvent {}
+    sealed interface Event: ViewEvent
 
     @Immutable
     data class State(
